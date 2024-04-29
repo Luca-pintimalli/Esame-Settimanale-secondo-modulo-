@@ -1,0 +1,627 @@
+body {
+    font-family: "Spectral", serif;
+
+}
+
+/*----------Header----------*/
+svg {
+    display: none;
+
+}
+
+header {
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: -3em;
+}
+
+
+/*menu nav*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 4.5em;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ffc017;
+
+}
+
+nav figure img {
+    width: 10em;
+    margin-left: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+#ourStory,
+#membership,
+#write {
+    display: none;
+}
+
+#singIn {
+    width: 4em;
+}
+
+#getStarted {
+    margin-left: 2em;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 6% 6%;
+    width: 6em;
+}
+
+#secondContentText {
+    margin-left: 1em;
+    padding-top: 3em;
+}
+
+#secondContentText h1 {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+    font-size: 4.5em;
+    font-weight: 400;
+}
+
+#secondContentText p {
+    font-size: 1.4em;
+    width: 18em;
+    margin-bottom: 2em;
+}
+
+#secondContentText button {
+    margin-bottom: 5em;
+    background-color: black;
+    border-radius: 50px;
+    padding: 2%;
+    width: 14em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#secondContentText button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*-------------------MAIN------------------------*/
+main {
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----FIRST SECTION------*/
+#section1 {
+    border-bottom: 1px solid #F2F2F2;
+    ;
+}
+
+#section1 article:last-child {
+    margin-bottom: 2.5em;
+}
+
+main>div:first-of-type {
+    display: flex;
+    align-items: center;
+    margin: 2em auto auto 1.7em;
+}
+
+main>div:first-of-type h2 {
+    padding-left: 0.5em;
+    font-size: 0.9em;
+}
+
+
+/*-----------ARTICLES----------------*/
+.trendingArticles {
+    display: flex;
+    margin: 0.5em 0.5em 1em 0.5em;
+    padding: 1em 1em 0 1em;
+}
+
+.contentPost div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.number span {
+    font-size: 2.2em;
+    color: #F2F2F2;
+    font-weight: 600;
+}
+
+.contentPost {
+    padding: 1% 3%;
+}
+
+/*HO LAVORATO LE IMMAGINI SEPARATAMENTE PERCHè MOLTE AVEVANO DELLE GRANDEZZE DIVERSE*/
+#img1 {
+    width: 11%;
+}
+
+#img2 {
+    width: 8%;
+}
+
+#img3,
+#img4,
+#img5 {
+    width: 6%;
+}
+
+#img6 {
+    width: 7%;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+.imgAuthor/*section4*/
+    {
+    border-radius: 50px;
+}
+
+
+.contentPost div p,
+.contentArticles div:first-of-type p
+
+/*section4*/
+    {
+    font-weight: bold;
+    margin-left: 0.5em;
+    font-size: 0.9em;
+}
+
+.contentPost div a,
+.contentArticles div a
+
+/*section4*/
+    {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.contentPost div a h3 {
+    padding-block: 0.5em;
+}
+
+.contentPost div:last-child {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 0.9em;
+    color: #6B6B6B;
+}
+
+/*----------SECOND SECTION----------*/
+#section2,
+#section3,
+#section4 {
+    margin-inline: 1.5em;
+}
+
+#secondTitle {
+    margin: 4em auto 0 0;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#listDiscover {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+#listDiscover a {
+    text-decoration: none;
+    color: #6B6B6B;
+}
+
+#listDiscover li {
+    border: solid #F2F2F2;
+    padding: 2% 1%;
+    margin: 0.5em 1em 0.5em 0;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+hr {
+    width: 30em;
+
+}
+
+/*----------THIRD SECTION----------*/
+#contatti {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 1.5em;
+}
+
+#contatti li {
+    margin: 0 1.5em 0.5em 0;
+}
+
+#contatti a {
+    text-decoration: none;
+    color: #6B6B6B;
+}
+
+
+/*----------FOURTH SECTION----------*/
+.articles {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+}
+
+
+
+.articles figure img {
+    width: 12.2em;
+}
+
+.contentArticles {
+    margin-right: 1em;
+}
+
+.contentArticles div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+
+.contentArticles div a h3 {
+    padding-block: 0.5em;
+    font-size: 1.4em;
+}
+
+.contentArticles>div:nth-child(3) p {
+    color: #6B6B6B;
+    padding-bottom: 0.5em;
+    font-size: 1.2em;
+
+}
+
+.contentArticles>div:nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contentArticles>div:nth-child(4) div:first-child {
+    font-weight: 100;
+    font-size: 0.9em;
+    color: #6B6B6B;
+}
+
+.contentArticles>div:nth-child(4) div:first-child span {
+    margin-right: 0.1em;
+}
+
+.contentArticles>div:nth-child(4) div:last-child {
+    margin-right: 1em;
+}
+
+.category {
+    background-color: lightgray;
+    border-radius: 50px;
+    padding: 0.5em;
+    margin-right: 0.2em;
+    text-align: center;
+}
+
+.imgAuthor {
+    width: 9%;
+}
+
+
+/*----------------TABLET----------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*------------BARRA NAV------------*/
+    #ourStory,
+    #membership,
+    #write {
+        display: block;
+    }
+
+    nav {
+        justify-content: space-around;
+    }
+
+    nav ul {
+        width: 33em;
+    }
+
+    nav ul li {
+        margin-inline: 1em;
+
+    }
+
+    #getStarted {
+        margin-left: 0;
+        padding: 2% 3%;
+        width: 5em;
+    }
+
+    /*------------HEADER------------*/
+    svg {
+        display: block;
+    }
+
+    #secondContent {
+        display: flex;
+        align-items: center;
+    }
+
+    #secondContentText {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    #secondContentText h1 {
+        font-size: 4em;
+        margin-top: 0;
+    }
+
+    #secondContentText p {
+        font-size: 1.3em;
+        width: 18em;
+        margin-bottom: 1.5em;
+    }
+
+    #secondContentText button {
+        margin-bottom: 0;
+        padding: 1%;
+        width: 11em;
+    }
+
+    /*----------------main----------------*/
+    main>div:first-of-type {
+        margin-left: 9em;
+        margin-top: 0;
+    }
+
+    /*----------------section2----------------*/
+    #section1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trendingArticles {
+        width: 20em;
+        align-items: baseline;
+        margin-top: 0;
+
+    }
+
+    .number span {
+        font-size: 1.9em;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #img3,
+    #img4,
+    #img5 {
+        width: 8%;
+    }
+
+    #img6 {
+        width: 8%;
+    }
+
+    .contentPost div a h3 {
+        padding-block: 0.5em;
+        font-weight: bold;
+        color: #191919;
+    }
+
+    /*----------------section2----------------*/
+    #section2,
+    #section3,
+    #section4 {
+        margin-inline: 3em;
+    }
+
+    #listDiscover li {
+        padding: 1% 4%;
+        font-size: 0.7em;
+        margin: 0.5em 0.5em 0.5em 0;
+    }
+
+    hr {
+        width: 90%;
+        margin-right: 4em;
+    }
+
+    /*----------------section3----------------*/
+    #contatti {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin-top: 1.5em;
+        justify-content: space-around;
+    }
+
+    /*----------------section4----------------*/
+       
+    .articles figure img {
+        width: 13.2em;
+    }
+    .articles {
+        justify-content: space-between;
+    }
+
+    .imgAuthor {
+        width: 4%;
+    }
+}
+
+/*----------------desktop----------------*/
+@media screen and (min-width: 1024px)  {
+    #ourStory,
+    #membership,
+    #write {
+    display: block;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        width: 33em;
+        margin-right: 5em;
+    }
+
+    nav ul li {
+        margin-inline: 1em;
+
+    }
+
+    #getStarted {
+        margin-left: 0;
+        padding: 2% 3%;
+        width: 5em;
+    }
+
+    nav figure img {
+        margin-left: 5em;
+
+   }
+   svg {
+    display: block;
+}
+
+ /*----------------header----------------*/
+
+#secondContent {
+    display: flex;
+    align-items: center;
+}
+
+#secondContentText {
+    padding-left: 5em;
+    width: 95em;
+}
+
+#secondContentText h1 {
+    font-size: 6em;
+    margin-top: 0;
+}
+
+#secondContentText p {
+    font-size: 1.4em;
+    width: 18em;
+    margin-bottom: 1.5em;
+}
+
+#secondContentText button {
+    margin-bottom: 0;
+    padding: 1%;
+    width: 11em;
+}
+/*----------------main----------------*/
+main>div:first-of-type {
+    margin-left: 9em;
+    margin-top: 0;
+}
+
+/*----------------section2----------------*/
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendingArticles {
+    width: 22em;
+    align-items: baseline;
+    margin-top: 0;
+
+}
+
+.number span {
+    font-size: 1.9em;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+#img3,
+#img4,
+#img5 {
+    width: 8%;
+}
+
+#img6 {
+    width: 8%;
+}
+
+.contentPost div a h3 {
+    padding-block: 0.5em;
+    font-weight: bold;
+    color: #191919;
+}
+#contentsDesktop{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3em;
+}
+
+#contentDestop{
+    margin-left: 1em;
+}
+ /*----------------section4----------------*/
+ #section4{
+    margin-inline: 1em;
+ }
+       
+ .articles figure img {
+    width: 13.2em;
+}
+.articles {
+    justify-content: space-between;
+}
+
+.imgAuthor {
+    width: 4%;
+}
+hr {
+    width: 76%;
+    margin-right: 4em;
+    color: #F2F2F2;
+    margin-left: 1.5em;
+}
+#listDiscover li {
+    padding: 2% 3%;
+ 
+}
+
+#contatti {
+    width: 30em;
+}
+}
